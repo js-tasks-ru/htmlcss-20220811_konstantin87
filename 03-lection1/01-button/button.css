@@ -2,11 +2,8 @@
 
 :root {
   --primary-color: #4263EB;
-  --primary-color-hover: #2342C0;
   --secondary-color: #7048E8;
-  --secondary-color-hover: #5028C6;
   --alternate-color: var(--gray3);
-  --alternate-color-hover: var(--black);
 
   --white: #FFFFFF;
   --black: #212429;
@@ -32,6 +29,7 @@
 }
 
 .button_primary {
+  --primary-color-hover: #2342C0;
   border: 1px solid var(--primary-color);
   background-color: var(--primary-color);
   color: var(--white);
@@ -45,6 +43,7 @@
 }
 
 .button_secondary {
+  --secondary-color-hover: #5028C6;
   border: 1px solid var(--secondary-color);
   background-color: var(--secondary-color);
   color: var(--white);
@@ -58,12 +57,12 @@
 }
 
 .button_alternate {
-  border: 1px solid var(--alternate-color);
+  border: 1px solid var(--gray3);
   background-color: var(--white);
   transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 
 }
 
 .button_alternate:hover:enabled {
-  border: 1px solid var(--alternate-color-hover);
+  border: 1px solid var(--black);
 }
