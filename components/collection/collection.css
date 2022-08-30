@@ -1,0 +1,5 @@
+.collection {
+  background-color: #f9fafc;
+  border-bottom: 1px solid var(--grey-2);
+  border-top: 1px solid var(--grey-2);
+}

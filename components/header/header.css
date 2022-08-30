@@ -1,0 +1,11 @@
+.header {
+}
+
+.header__title {
+  color: var(--black);
+  font-family: 'Inter', sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 64px;
+  margin: 0;
+}
