@@ -4,6 +4,7 @@
 @import '../../components/header/header.css';
 @import '../../components/footer/footer.css';
 @import '../../components/collection/collection.css';
+@import '../../04-lection2/01-histogram/histogram.css';
 
 :root {
   --black: #212429;
