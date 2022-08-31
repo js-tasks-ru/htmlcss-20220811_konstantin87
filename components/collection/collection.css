@@ -52,7 +52,6 @@
 }
 
 .collection__item-preview {
-  align-items: stretch;
   align-self: stretch;
   display: flex;
   flex-direction: column;
