@@ -26,16 +26,17 @@
   gap: 6px;
 }
 
-.histogram_text-big {
+.histogram_subtitle {
   font-size: 20px;
   line-height: 26px;
+  margin: 0;
 }
 
 .histogram__link {
   text-decoration: none var(--primary);
 }
 
-.histogram p {
+.histogram_title {
   margin: 0;
 }
 
@@ -48,9 +49,8 @@
 
 .histogram__bar {
   background-color: var(--primary);
+  flex-basis: 9px;
   flex-grow: 1;
-  height: 100%;
-  width: 9px;
 }
 
 .histogram__bar_10 {
@@ -79,4 +79,8 @@
 }
 .histogram__bar_90 {
   height: 90%;
+}
+
+.histogram__bar_100 {
+  height: 100%;
 }
