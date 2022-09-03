@@ -18,5 +18,7 @@
 .collection__item {
   display: flex;
   height: 367px;
+  max-height: 367px;
+  max-width: 350px;
   width: 350px;
 }
