@@ -2,4 +2,21 @@
   background-color: #f9fafc;
   border-bottom: 1px solid var(--grey-2);
   border-top: 1px solid var(--grey-2);
+  display: flex;
+  justify-content: center;
+  padding: 68px 0;
+}
+
+.collection__inner-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  max-width: 1110px;
+}
+
+.collection__item {
+  display: flex;
+  height: 367px;
+  width: 350px;
 }
